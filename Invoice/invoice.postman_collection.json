@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "e2553626-6085-44ff-894a-4e78aba58adf",
+		"name": "invoice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:6868/api/invoice/create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"products\" : [\"5\",\"1\",\"1\", \"6\"]}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:6868/api/invoice/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "6868",
+					"path": [
+						"api",
+						"invoice",
+						"create"
+					]
+				},
+				"description": "All three discounts"
+			},
+			"response": []
+		}
+	]
+}
